@@ -1,5 +1,4 @@
-import { sum } from "../../../jest-basic/math";
-import { multi, fetchName, promiseEven } from "./math";
+import { sum, multi, fetchName, promiseEven } from "./math";
 
 test("adds 2 + 2 to equal 4", () => {
   expect(sum(2, 2)).toBe(4);
